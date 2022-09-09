@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+    <link href='contact.css' rel='stylesheet' />
+    <link rel='icon' href='data:;base64,=' />
+</head>
+
+<body>
+<section class = "header">
+    <div class="text-box">
+        <h1>Contact</h1>
+    </div>
+    <div class="nav-links" id="navLinks">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+            <li><a href="details.html">Details</a></li>
+        </ul>
+    </div>
+</div>
+</section>
+<section>
+    <div class="container">
+    <form id="form" class="form">
+		<div class="form-control">
+			<label for="username">Username</label>
+			<input type="text" placeholder="Name" id="name" />
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Email</label>
+			<input type="email" placeholder="Your email" id="email" />
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Subject</label>
+			<input type="text" placeholder="Subject" id="subject"/>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Adress</label>
+			<input type="text" placeholder="Adress" id="adress"/>
+			<small>Error message</small>
+		</div>
+		<button>Submit</button>
+	</form>  
+</div>
+</section>
+    <div class="loader"></div>
+        <div class="container">
+            <div id="app"></div>    
+    </div>  
+<script src="contact.js"></script>
+</body>
+
+</html>
